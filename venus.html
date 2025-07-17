@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Venus | The Planets</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <canvas id="starsCanvas"></canvas>
+
+    <header>
+      <div class="logo">THE PLANETS</div>
+      <nav>
+        <div class="nav-container">
+          <div class="hamburger" id="menu-btn">☰</div>
+
+          <ul class="nav-list" id="nav-links">
+            <li><a href="mercury.html">MERCURY</a></li>
+            <li><a href="venus.html" class="active-link">VENUS</a></li>
+            <li><a href="index.html">EARTH</a></li>
+            <li><a href="mars.html">MARS</a></li>
+            <li><a href="jupiter.html">JUPITER</a></li>
+            <li><a href="saturn.html">SATURN</a></li>
+            <li><a href="uranus.html">URANUS</a></li>
+            <li><a href="neptune.html">NEPTUNE</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="planet-left">
+        <img src="/assets/images/venus.png" alt="Venus" class="planet-img" />
+      </div>
+
+      <div class="planet-right">
+        <h2>VENUS</h2>
+        <p>
+          Venus is the second planet from the Sun and is Earth’s closest
+          planetary neighbor. It’s one of the four inner, terrestrial planets,
+          and it’s often called Earth’s twin because it’s similar in size and
+          density. But Venus has a thick, toxic atmosphere filled with carbon
+          dioxide and it’s perpetually shrouded in thick, yellowish clouds.
+        </p>
+        <span class="source"
+          >Source:
+          <a href="https://en.wikipedia.org/wiki/Venus" target="_blank"
+            >Wikipedia 🔗</a
+          ></span
+        >
+
+        <div class="tab-bar external-tabs">
+          <a
+            href="https://en.wikipedia.org/wiki/Venus"
+            target="_blank"
+            class="tab-link"
+            >01 OVERVIEW</a
+          >
+          <a
+            href="https://solarsystem.nasa.gov/planets/venus/overview/"
+            target="_blank"
+            class="tab-link"
+            >02 INTERNAL STRUCTURE</a
+          >
+          <a
+            href="https://en.wikipedia.org/wiki/Geology_of_Venus"
+            target="_blank"
+            class="tab-link"
+            >03 SURFACE GEOLOGY</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <section class="stats">
+      <div class="stat-card">
+        <p>ROTATION TIME</p>
+        <h3>243 DAYS</h3>
+      </div>
+      <div class="stat-card">
+        <p>REVOLUTION TIME</p>
+        <h3>224.7 DAYS</h3>
+      </div>
+      <div class="stat-card">
+        <p>RADIUS</p>
+        <h3>6,051.8 KM</h3>
+      </div>
+      <div class="stat-card">
+        <p>AVERAGE TEMP.</p>
+        <h3>471°C</h3>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <h4>Planets Fact Site</h4>
+      </div>
+
+      <div class="footer-center">
+        <h4>Sources</h4>
+        <div class="source-links">
+          <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank"
+            >Wikipedia</a
+          >
+          <a href="https://science.nasa.gov/solar-system/" target="_blank"
+            >NASA</a
+          >
+        </div>
+        <p class="footer-credit">
+          © 2025 Created by Mansi Sharma — For Educational Purpose Only
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <img src="/assets/images/planet-map.jpg" alt="Solar System Map" />
+      </div>
+    </footer>
+
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/stars.js"></script>
+  </body>
+</html>

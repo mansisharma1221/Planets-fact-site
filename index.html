@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Earth | The Planets</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <canvas id="starsCanvas"></canvas>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">THE PLANETS</div>
+      <nav>
+        <div class="nav-container">
+          <div class="hamburger" id="menu-btn">☰</div>
+
+          <ul class="nav-list" id="nav-links">
+            <li><a href="mercury.html">MERCURY</a></li>
+            <li><a href="venus.html">VENUS</a></li>
+            <li><a href="index.html" class="active-link">EARTH</a></li>
+            <li><a href="mars.html">MARS</a></li>
+            <li><a href="jupiter.html">JUPITER</a></li>
+            <li><a href="saturn.html">SATURN</a></li>
+            <li><a href="uranus.html">URANUS</a></li>
+            <li><a href="neptune.html">NEPTUNE</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container">
+      <div class="planet-left">
+        <img src="/assets/images/earth.png" alt="Earth" class="planet-img" />
+      </div>
+
+      <div class="planet-right">
+        <h2>EARTH</h2>
+        <p>
+          Third planet from the Sun and the only known planet to harbor life.
+          About 29.2% of Earth’s surface is land with remaining 70.8% is covered
+          with water. Earth's distance from the Sun, physical properties and
+          geological history have allowed life to evolve and thrive.
+        </p>
+        <span class="source"
+          >Source:
+          <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"
+            >Wikipedia 🔗</a
+          ></span
+        >
+
+        <div class="tab-bar external-tabs">
+          <a
+            href="https://en.wikipedia.org/wiki/Earth"
+            target="_blank"
+            class="tab-link"
+            >01 OVERVIEW</a
+          >
+          <a
+            href="https://solarsystem.nasa.gov/planets/earth/overview/"
+            target="_blank"
+            class="tab-link"
+            >02 INTERNAL STRUCTURE</a
+          >
+          <a
+            href="https://en.wikipedia.org/wiki/Geology_of_Earth"
+            target="_blank"
+            class="tab-link"
+            >03 SURFACE GEOLOGY</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- Planet Stats -->
+    <section class="stats">
+      <div class="stat-card">
+        <p>ROTATION TIME</p>
+        <h3>0.99 DAYS</h3>
+      </div>
+      <div class="stat-card">
+        <p>REVOLUTION TIME</p>
+        <h3>365.26 DAYS</h3>
+      </div>
+      <div class="stat-card">
+        <p>RADIUS</p>
+        <h3>6,371 KM</h3>
+      </div>
+      <div class="stat-card">
+        <p>AVERAGE TEMP.</p>
+        <h3>16°C</h3>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <h4>Planets Fact Site</h4>
+      </div>
+
+      <div class="footer-center">
+        <h4>Sources</h4>
+        <div class="source-links">
+          <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank"
+            >Wikipedia</a
+          >
+          <a href="https://science.nasa.gov/solar-system/" target="_blank"
+            >NASA</a
+          >
+        </div>
+        <p class="footer-credit">
+          © 2025 Created by Mansi Sharma — For Educational Purpose Only
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <img src="/assets/images/planet-map.jpg" alt="Solar System Map" />
+      </div>
+    </footer>
+
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/stars.js"></script>
+  </body>
+</html>
